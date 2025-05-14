@@ -1,0 +1,100 @@
+{
+  "parser": {
+    "Show me SHAP values for this model": "shap",
+    "Explain using LIME for sample #5": "lime:5",
+    "What are the most important features?": "feature_importance",
+    "How does this model make predictions?": "prediction",
+    "Make a prediction for sample 10": "prediction",
+    "Show SHAP values for patients over 50 years old": "shap"
+  },
+  "llm_connector": {
+    "openai": {
+      "success": true,
+      "response": "Sure! SHAP values are a way to understand how much each individual feature (or piece of information) contributes to a machine learning model's prediction for a specific example.\n\nThink of it like this: Suppose your model is predicting whether someone will buy a house. SHAP values tell you how much each factor\u2014like the house price, size, location, or number of bedrooms\u2014pushes the prediction higher or lower. \n\nIn simple terms, SHAP values break down the overall prediction into smaller parts, showing the impact of each feature. This helps us see which features are most influential for that particular prediction and understand the model's behavior better.",
+      "time": 1.7589845657348633
+    }
+  },
+  "explainers": {
+    "success": false,
+    "error": "Model or data is None"
+  },
+  "executor": {
+    "success": false,
+    "error": "Missing model, data, or project_info"
+  },
+  "llm_explainer": {},
+  "vector_store": {
+    "success": true,
+    "initialization_time": 0.008148193359375,
+    "queries": {
+      "How does Random Forest work?": {
+        "success": true,
+        "results": [
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 145
+          },
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 577
+          }
+        ],
+        "time": 0.0
+      },
+      "Tell me about the diabetes dataset": {
+        "success": true,
+        "results": [
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 128
+          },
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 400
+          }
+        ],
+        "time": 0.007130622863769531
+      },
+      "What are SHAP values?": {
+        "success": true,
+        "results": [
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 577
+          },
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 165
+          }
+        ],
+        "time": 0.0
+      },
+      "Explain feature importance": {
+        "success": true,
+        "results": [
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 79
+          },
+          {
+            "title": "Untitled",
+            "score": 0,
+            "content_length": 98
+          }
+        ],
+        "time": 0.0010325908660888672
+      }
+    }
+  },
+  "pipeline": {
+    "success": false,
+    "error": "Missing model, data, or project_info"
+  }
+}
