@@ -1,0 +1,36 @@
+# Detailed Model Analysis
+
+## Model Overview
+- **Model Type**: {model_type}
+- **Task**: {task_type} ({target_description})
+- **Training Data**: {train_size} instances
+- **Test Data**: {test_size} instances
+- **Features**: {feature_count} total features
+
+## Performance Metrics
+{performance_metrics_detailed}
+
+## Feature Importance
+The model makes predictions based primarily on these features:
+{top_features_detailed}
+
+## Interpretation Guide
+When interpreting this model's predictions:
+
+1. **Positive Drivers**: {positive_features_explained}
+   These features tend to increase the predicted value/probability.
+
+2. **Negative Drivers**: {negative_features_explained}
+   These features tend to decrease the predicted value/probability.
+
+3. **Feature Interactions**: {feature_interactions}
+   Some features have important interactions that affect predictions.
+
+## Recommendations for Analysis
+- Use SHAP values to understand how features contribute to individual predictions
+- LIME explanations can provide local approximations that are more interpretable
+- Consider how feature values compare to the dataset distribution when interpreting importance
+
+## Limitations
+This model has the following limitations to be aware of:
+{limitations}

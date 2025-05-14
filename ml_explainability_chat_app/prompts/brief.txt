@@ -1,0 +1,13 @@
+# Brief Model Summary
+
+Model Type: {model_type}
+Task: {task_type} ({target_description})
+Dataset: {dataset_size} instances with {feature_count} features
+
+Top 3 features:
+{top_3_features}
+
+Performance metrics:
+{performance_metrics}
+
+This model has been trained to analyze the provided features and predict {target_description}. The features listed above are the most influential in making predictions.
