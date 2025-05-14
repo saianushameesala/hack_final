@@ -1,0 +1,14 @@
+# Simple ML Explanation Template
+
+This model works by {model_type} to predict {target_description}. 
+
+The most important features are:
+{top_features}
+
+When making predictions, the model considers these features in order of importance and combines them to produce the final output.
+
+To interpret the results:
+- Higher values of {positive_features} are associated with higher predictions
+- Higher values of {negative_features} are associated with lower predictions
+
+If you want to understand specific predictions, I can provide SHAP or LIME explanations for individual instances.
